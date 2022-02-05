@@ -1,0 +1,20 @@
+{
+  "name": "calendar-mern",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.x"
+  },
+  "workspaces":[
+    "backend",
+    "frontend"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=frontend",
+    "start": "npm run start --workspace=backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
