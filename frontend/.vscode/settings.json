@@ -1,5 +1,0 @@
-{
-    "javascript.inlayHints.parameterNames.enabled": "literals",
-    "typescript.inlayHints.parameterNames.enabled": "all",
-    "javascript.inlayHints.parameterTypes.enabled": true
-}
